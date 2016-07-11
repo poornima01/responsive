@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>web page</title>
+</head>
+        <style>
+            body {
+                background-color: #C8D495;
+            }
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+             .brand {
+
+                 float: left;
+                 font-size: 25px;
+                 padding: 5px 0 0 10px;
+
+             }
+             .option ul li {
+                 display: inline-block;
+                 list-style: none;
+                 color: black;
+                 padding: 10px;
+
+             }
+             .option ul {
+                 text-align: right;
+             }
+             .nav {
+                 background-color: darkorange;
+             }
+             a {
+                 text-decoration: none;
+                 color:black;
+
+             }
+             a:hover {
+                 background-color: #ffffff;
+             }
+
+             section {
+                 padding: 100px 30px;
+             }
+
+             .bg-gray {
+                 background-color: #eee;
+             }
+            .home-image {
+                text-align: center;
+            }
+            img {
+                width: 700px;
+                height: 300px;
+            }
+            p {
+                text-align: justify;
+                font-size: 20px;
+            }
+            .field1 {
+                float: left;
+            }
+             table th {
+                 padding: 50px 0 50px 0;
+            }
+
+
+            legend {
+                font-size: 20px;
+                border: 2px solid;
+                text-align: center;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            input {
+                border: 2px solid;
+                border-radius: 5px;
+
+            }
+            h1 {
+                text-align: center;
+                font-size: 30px;
+
+            }
+
+            .title {
+                margin-bottom: 30px;
+            }
+
+        </style>
+
+<body>
+    <div class="nav">
+        <div class="brand">
+            brand name
+        </div>
+        <div class="option">
+            <ul>
+                <li><b><a href="#head">HOME</a></b></li>
+                <li><b><a href="#about">ABOUT AS</a></b> </li>
+                <li><b><a href="#contact">CONTACT AS</a></b></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Home image-->
+    <section>
+        <div class="home-image">
+            <img src="book.jpg" alt="image">
+        </div>
+    </section>
+
+    <!-- About us Section begin -->
+    <section class="bg-gray">
+        <h1 id="about" class="title">ABOUT US</h1>
+        <p>
+            documents. For example, newspapers show the same stories in print as they do on websites; you can
+            apply for insurance over the web; and stores have online catalogs and e-commercedocuments. For
+            example, newspapers show  the same in print as they do on websites; you can apply for insurance.
+            <br><br>
+            documents. For example, newspapers show the same stories in print as they do on websites; you can
+            apply for insurance over the web; and stores have online catalogs and e-commercedocuments. For
+            example, newspapers show  the same in print as they do on websites; you can apply for insurance
+        </p>
+    </section>
+    <!-- About us Section end -->
+    <!-- contact us Section begin -->
+    <section class="contact">
+        <h1 id="contact" class="title">Contact Us</h1>
+        <fieldset class="field1">
+        <legend>Information</legend>
+            <form action="#">
+                <table>
+                    <tr>
+                        <th>First Name:<input type="text" name="fname"></th>
+                        <th>Last Name:<input type="text" name="uname"></th>
+                    </tr>
+                    <tr>
+                        <th>Email:<input type="email" name="mail"></th>
+                        <th>Phone:<input type="number" name="number"></th>
+                    </tr>
+                    <tr>
+                        <th>Password:<input type="password" name="pass"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="submit" name="sub"> </th>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+        <fieldset class="field2">
+        <legend> Information</legend>
+            <form>
+                <table>
+                    <tr>
+                        <th>City:<input type="text" name="city"></th>
+                    </tr>
+                    <tr>
+                        <th>Zipcode:<input type="number" name="zcode"></th>
+                    </tr>
+                    <tr>
+                        <th>State:<input type="text" name="state"></th>
+                    </tr>
+                    <tr>
+                        <th>Contry:<input type="text" name="contry"></th>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+        </section>
+
+</body>
+</html>
